@@ -1,0 +1,24 @@
+.DS_Store
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcuserstate
+*.moved-aside
+*.swp
+*.tmp
+
+# Xcode user data
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# SwiftPM
+.build/
+
+# Xcode build artifacts
+*.xcarchive

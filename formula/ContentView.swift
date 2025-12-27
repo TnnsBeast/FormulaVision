@@ -6,18 +6,13 @@
 //
 
 import SwiftUI
-import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+    @StateObject private var model = TelemetryViewModel()
 
-            Text("Hello, world!")
-        }
-        .padding()
+    var body: some View {
+        TelemetryRootView(model: model)
+            .frame(minWidth: 1080, minHeight: 760)
     }
 }
 

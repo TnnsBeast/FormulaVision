@@ -13,5 +13,6 @@ struct formulaApp: App {
         WindowGroup {
             ContentView()
         }
+        .defaultSize(width: 1200, height: 820)
     }
 }
