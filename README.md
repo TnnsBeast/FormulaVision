@@ -3,7 +3,7 @@
 Formula Vision is a Vision Pro dashboard that replays OpenF1 telemetry as a live-style HUD. It combines high-frequency car data with race session metadata so you can scrub, switch drivers, and toggle telemetry layers without clutter.
 
 ## Screenshot
-![Formula Vision Dashboard](FormulaVision.png)
+![Formula Vision Dashboard](FV_Screenshot.png)
 
 ## Features
 - Live-style replay of OpenF1 telemetry with play/pause and speed controls
